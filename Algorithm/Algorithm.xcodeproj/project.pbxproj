@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE509A702339EE70000ED814 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A6F2339EE70000ED814 /* main.c */; };
+		EE509A7C2339F289000ED814 /* Baekjoon1000.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A7B2339F289000ED814 /* Baekjoon1000.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EE509A6C2339EE70000ED814 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE509A6F2339EE70000ED814 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EE509A7A2339F289000ED814 /* Baekjoon1000.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baekjoon1000.h; sourceTree = "<group>"; };
+		EE509A7B2339F289000ED814 /* Baekjoon1000.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon1000.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		EE509A6E2339EE70000ED814 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EE509A792339EFC9000ED814 /* Baekjoon1000 */,
 				EE509A6F2339EE70000ED814 /* main.c */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		EE509A792339EFC9000ED814 /* Baekjoon1000 */ = {
+			isa = PBXGroup;
+			children = (
+				EE509A7A2339F289000ED814 /* Baekjoon1000.h */,
+				EE509A7B2339F289000ED814 /* Baekjoon1000.c */,
+			);
+			path = Baekjoon1000;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE509A702339EE70000ED814 /* main.c in Sources */,
+				EE509A7C2339F289000ED814 /* Baekjoon1000.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
