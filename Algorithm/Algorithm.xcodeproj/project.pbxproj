@@ -15,6 +15,7 @@
 		EE509A8C233A2F8E000ED814 /* Baekjoon10818.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A8B233A2F8E000ED814 /* Baekjoon10818.c */; };
 		EE509A90233A34EC000ED814 /* Baekjoon4344.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A8F233A34EC000ED814 /* Baekjoon4344.c */; };
 		EE6C442F233A66AF00A312AD /* Baekjoon15596.c in Sources */ = {isa = PBXBuildFile; fileRef = EE6C442E233A66AF00A312AD /* Baekjoon15596.c */; };
+		EE6C4433233A697000A312AD /* Baekjoon2447.c in Sources */ = {isa = PBXBuildFile; fileRef = EE6C4432233A697000A312AD /* Baekjoon2447.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		EE509A8F233A34EC000ED814 /* Baekjoon4344.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon4344.c; sourceTree = "<group>"; };
 		EE6C442D233A66AF00A312AD /* Baekjoon15596.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baekjoon15596.h; sourceTree = "<group>"; };
 		EE6C442E233A66AF00A312AD /* Baekjoon15596.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon15596.c; sourceTree = "<group>"; };
+		EE6C4431233A697000A312AD /* Baekjoon2447.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baekjoon2447.h; sourceTree = "<group>"; };
+		EE6C4432233A697000A312AD /* Baekjoon2447.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon2447.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 		EE509A6E2339EE70000ED814 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C4430233A695000A312AD /* Baekjoon2447 */,
 				EE6C442C233A668F00A312AD /* Baekjoon15596 */,
 				EE509A8D233A34DB000ED814 /* Baekjoon4344 */,
 				EE509A89233A2F78000ED814 /* Baekjoon10818 */,
@@ -153,6 +157,15 @@
 			path = Baekjoon15596;
 			sourceTree = "<group>";
 		};
+		EE6C4430233A695000A312AD /* Baekjoon2447 */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C4431233A697000A312AD /* Baekjoon2447.h */,
+				EE6C4432233A697000A312AD /* Baekjoon2447.c */,
+			);
+			path = Baekjoon2447;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +228,7 @@
 				EE6C442F233A66AF00A312AD /* Baekjoon15596.c in Sources */,
 				EE509A702339EE70000ED814 /* main.c in Sources */,
 				EE509A802339FD7B000ED814 /* Baekjoon10430.c in Sources */,
+				EE6C4433233A697000A312AD /* Baekjoon2447.c in Sources */,
 				EE509A84233A223A000ED814 /* Baekjoon2884.c in Sources */,
 				EE509A7C2339F289000ED814 /* Baekjoon1000.c in Sources */,
 			);
