@@ -11,6 +11,7 @@
 		EE509A7C2339F289000ED814 /* Baekjoon1000.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A7B2339F289000ED814 /* Baekjoon1000.c */; };
 		EE509A802339FD7B000ED814 /* Baekjoon10430.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A7F2339FD7B000ED814 /* Baekjoon10430.c */; };
 		EE509A84233A223A000ED814 /* Baekjoon2884.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A83233A223A000ED814 /* Baekjoon2884.c */; };
+		EE509A88233A2C4E000ED814 /* Baekjoon15552.c in Sources */ = {isa = PBXBuildFile; fileRef = EE509A87233A2C4E000ED814 /* Baekjoon15552.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		EE509A7F2339FD7B000ED814 /* Baekjoon10430.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon10430.c; sourceTree = "<group>"; };
 		EE509A82233A223A000ED814 /* Baekjoon2884.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baekjoon2884.h; sourceTree = "<group>"; };
 		EE509A83233A223A000ED814 /* Baekjoon2884.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon2884.c; sourceTree = "<group>"; };
+		EE509A86233A2C4E000ED814 /* Baekjoon15552.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baekjoon15552.h; sourceTree = "<group>"; };
+		EE509A87233A2C4E000ED814 /* Baekjoon15552.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Baekjoon15552.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		EE509A6E2339EE70000ED814 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EE509A85233A2C2D000ED814 /* Baekjoon15552 */,
 				EE509A81233A0774000ED814 /* Baekjoon2884 */,
 				EE509A7D2339FD5B000ED814 /* Baekjoon10430 */,
 				EE509A792339EFC9000ED814 /* Baekjoon1000 */,
@@ -99,6 +103,15 @@
 				EE509A83233A223A000ED814 /* Baekjoon2884.c */,
 			);
 			path = Baekjoon2884;
+			sourceTree = "<group>";
+		};
+		EE509A85233A2C2D000ED814 /* Baekjoon15552 */ = {
+			isa = PBXGroup;
+			children = (
+				EE509A86233A2C4E000ED814 /* Baekjoon15552.h */,
+				EE509A87233A2C4E000ED814 /* Baekjoon15552.c */,
+			);
+			path = Baekjoon15552;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE509A88233A2C4E000ED814 /* Baekjoon15552.c in Sources */,
 				EE509A702339EE70000ED814 /* main.c in Sources */,
 				EE509A802339FD7B000ED814 /* Baekjoon10430.c in Sources */,
 				EE509A84233A223A000ED814 /* Baekjoon2884.c in Sources */,
