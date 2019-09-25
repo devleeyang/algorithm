@@ -8,6 +8,7 @@
 
 #include "Baekjoon2447.h"
 
+/*
 char map[3000][3000];
 
 void init(int n)      // 맵 초기화
@@ -52,3 +53,4 @@ void printBoarding() {
     printf("\n");
     }
 }
+*/

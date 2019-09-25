@@ -1,14 +1,14 @@
 //
-//  Baekjoon2447.h
+//  Link_Stack.h
 //  Algorithm
 //
 //  Created by 양혜리 on 25/09/2019.
 //  Copyright © 2019 hryang. All rights reserved.
 //
 
-#ifndef Baekjoon2447_h
-#define Baekjoon2447_h
+#ifndef Link_Stack_h
+#define Link_Stack_h
 
 #include <stdio.h>
-//void printBoarding(void);
-#endif /* Baekjoon2447_h */
+
+#endif /* Link_Stack_h */
