@@ -18,6 +18,7 @@
 		EE6C4433233A697000A312AD /* Baekjoon2447.c in Sources */ = {isa = PBXBuildFile; fileRef = EE6C4432233A697000A312AD /* Baekjoon2447.c */; };
 		EEA6800F233B8EB30063AB9B /* List_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = EEA6800E233B8EB30063AB9B /* List_stack.c */; };
 		EEA68012233B9B900063AB9B /* Link_Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = EEA68011233B9B900063AB9B /* Link_Stack.c */; };
+		EEA68016233BBA100063AB9B /* List_Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = EEA68015233BBA100063AB9B /* List_Queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		EEA6800E233B8EB30063AB9B /* List_stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = List_stack.c; sourceTree = "<group>"; };
 		EEA68010233B9B900063AB9B /* Link_Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Link_Stack.h; sourceTree = "<group>"; };
 		EEA68011233B9B900063AB9B /* Link_Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Link_Stack.c; sourceTree = "<group>"; };
+		EEA68014233BBA100063AB9B /* List_Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List_Queue.h; sourceTree = "<group>"; };
+		EEA68015233BBA100063AB9B /* List_Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = List_Queue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		EE509A6E2339EE70000ED814 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EEA68013233BB9000063AB9B /* Queue */,
 				EEA68009233B84EA0063AB9B /* Stack */,
 				EE6C4430233A695000A312AD /* Baekjoon2447 */,
 				EE6C442C233A668F00A312AD /* Baekjoon15596 */,
@@ -184,6 +188,15 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		EEA68013233BB9000063AB9B /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				EEA68014233BBA100063AB9B /* List_Queue.h */,
+				EEA68015233BBA100063AB9B /* List_Queue.c */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,6 +262,7 @@
 				EE509A802339FD7B000ED814 /* Baekjoon10430.c in Sources */,
 				EE6C4433233A697000A312AD /* Baekjoon2447.c in Sources */,
 				EEA68012233B9B900063AB9B /* Link_Stack.c in Sources */,
+				EEA68016233BBA100063AB9B /* List_Queue.c in Sources */,
 				EE509A84233A223A000ED814 /* Baekjoon2884.c in Sources */,
 				EE509A7C2339F289000ED814 /* Baekjoon1000.c in Sources */,
 			);

@@ -9,7 +9,7 @@
 #include "Link_Stack.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+/*
 typedef int element;
 typedef struct StackNode {
     element item;
@@ -62,3 +62,4 @@ element peek(LinkedStackType *s) {
         return s->top->item;
     }
 }
+ */
